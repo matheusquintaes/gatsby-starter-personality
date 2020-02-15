@@ -1,0 +1,18 @@
+@import 'base/reset';
+
+body {
+}
+
+.main {
+    background: #fff;
+    width: 1000px;
+}
+
+.bg { 
+    width: 100%;
+    background-position: bottom center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
