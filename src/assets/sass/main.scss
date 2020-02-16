@@ -1,11 +1,16 @@
 @import 'base/reset';
 
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+
 body {
+    font-family: 'Roboto', sans-serif;
 }
 
-.main {
+main {
     background: #fff;
     width: 1000px;
+    display: flex;
 }
 
 .bg { 
@@ -15,4 +20,46 @@ body {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    display:flex;
+    justify-content:center ;
+    align-items:center;
 }
+
+
+.profile-photo{
+    max-width:400px;
+}
+
+.left {
+
+}
+
+.right {
+    margin: 64px;
+
+     h1{
+        font-size: 48px;
+        color: #2D3748;
+        font-weight: 700;
+        margin-bottom: 16px;
+
+        b{ 
+            color: #5A67D8;
+        }
+     }
+
+     h3 {
+        color: #4A5568;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 32px;
+     }
+
+     p {
+         color: #818994;
+         font-size: 22px;
+         line-height: 26px;
+         letter-spacing: 1.2px;
+     }
+}
+
