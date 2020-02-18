@@ -2,13 +2,14 @@ import React from "react"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import Intro from "../components/Intro"
+import Works from "../components/Works"
 
-const IndexPage = () => (
+
+const WorkPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <Intro/>
+    <SEO title="Work" />
+    <Works/>
   </Layout>
 )
 
-export default IndexPage
+export default WorkPage

@@ -58,7 +58,7 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background: var(--background);
+    background: var(--mainColor);
     line-height: 1;
     font-size: 100%;
     font-family: -apple-system, 
@@ -73,6 +73,8 @@ const GlobalStyles = createGlobalStyle`
       sans-serif;
     font-size: 1.4rem;
     color:  var(--text);
+    width: 100vw;
+    height: 100vh;
   }
   a {
     color: var(--text);

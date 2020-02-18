@@ -7,6 +7,7 @@ export const Wrapper = styled.section`
     width: 1000px;
     flex-direction: row;
     align-items: center;
+    position:fixed;
 `
 
 
