@@ -1,13 +1,22 @@
 import React from "react"
+
 import AniLink from "gatsby-plugin-transition-link/AniLink";
+import Icons from "./icons"
+import links from "./content"
 import { Wrapper } from "./styled"
 
 const Nav = () => (
 
     <Wrapper>
     <ul>
-        <li><AniLink  paintDrip  hex="#5A67D8" to="/"> Home </AniLink></li>
-        <li><AniLink   paintDrip  hex="#5A67D8" to="/work"> Work </AniLink></li>
+        { 
+        links.map((link, i) => {
+            const Icon = Icons[link.label]
+            return (
+                <li key={i}> <AniLink to={link.url}> <Icon />  {link.label} </AniLink> </li>
+            )
+        })
+        }
     </ul>
     </Wrapper> 
 )

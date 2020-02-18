@@ -23,15 +23,16 @@ export const IntroContainer = styled.div`
         font-size: 48px;
         font-weight:700;
         line-height: 56px;
-        margin-bottom: 16px;
-        b{
+        margin-bottom: 12px;
+        color: var(--gray8);
+        b {
             color: var(--mainColor);
         }
     }
 
     h3{
         font-size: 14px;
-        leeter-spacing: 1.5px;
+        letter-spacing: 1.5px;
         color: var(--gray7);
         font-weight:700;
         margin-bottom: 32px;
@@ -39,5 +40,7 @@ export const IntroContainer = styled.div`
 
     p{
         color: var(--gray7);
+        font-size: 22px;
+        line-height: 26px;
     }
 `

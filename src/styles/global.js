@@ -61,42 +61,12 @@ const GlobalStyles = createGlobalStyle`
     background: var(--mainColor);
     line-height: 1;
     font-size: 100%;
-    font-family: -apple-system, 
-      BlinkMacSystemFont, 
-      "Segoe UI", 
-      Roboto, 
-      Oxygen,
-      Ubuntu,
-      Cantarell,
-      "Open Sans",
-      "Helvetica Neue", 
-      sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
-    color:  var(--text);
-    width: 100vw;
-    height: 100vh;
-  }
-  a {
-    color: var(--text);
-    text-decoration: underline;
-    transition: opacity 0.5s;
-    &:hover {
-      color: var(--highlight);
-      text-decoration:none;
-    }
-  }
-  h1 {
-    margin-bottom: 2rem;
-  }
-  
-  img {
-    display: block;
-  	width: 100%;
-  	height: auto;
   }
 
   body {
-    --textColor: #1D2B3D;
+    --textColor: #4a5568;
     --textSecondColor: #858d95;
     --mainColor: #5A67D8;
     --gray1: #f7fafc;

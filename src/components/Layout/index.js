@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Nav from '../Nav'
 import { Wrapper } from "./styled"
 
 
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
     <>
       <GlobalStyles/>
         <Wrapper>
+          <Nav/>
           {children}
         </Wrapper>
     </>
