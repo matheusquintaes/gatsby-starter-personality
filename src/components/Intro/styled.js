@@ -7,19 +7,14 @@ export const Wrapper = styled.section`
     width: 1000px;
     flex-direction: row;
     align-items: center;
-    position:fixed;
 `
-
-
-export const Left = styled.div`
-    text-decoration: none;
-    position: relative;
+export const ImageContainer = styled.div`
     flex-shrink: 0;
     width: 380px;
     height: 100%;
 `
 
-export const Right = styled.div`
+export const IntroContainer = styled.div`
     padding: 64px;
     margin-bottom: 0;
     width: 100%;
