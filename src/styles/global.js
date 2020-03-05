@@ -23,7 +23,6 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
   }
@@ -33,12 +32,9 @@ const GlobalStyles = createGlobalStyle`
     display: block;
   }
   html {
-    font-size: 18px;
     -webkit-font-smoothing: antialiased;
   }
-  body {
-    line-height: 1;
-  }
+
   ol, ul {
     list-style: none;
   }
@@ -57,15 +53,12 @@ const GlobalStyles = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
+
+
   body {
     background: var(--mainColor);
     line-height: 1;
-    font-size: 100%;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.4rem;
-  }
-
-  body {
     --textColor: #4a5568;
     --textSecondColor: #858d95;
     --mainColor: #5A67D8;

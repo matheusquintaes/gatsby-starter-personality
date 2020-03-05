@@ -13,7 +13,7 @@ const Nav = () => (
         links.map((link, i) => {
             const Icon = Icons[link.label]
             return (
-                <li key={i}> <AniLink to={link.url}> <Icon />  {link.label} </AniLink> </li>
+                <li key={i}> <AniLink paintDrip to={link.url} hex="#5A67D8"> <Icon />  {link.label} </AniLink> </li>
             )
         })
         }

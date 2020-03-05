@@ -10,14 +10,14 @@ export const Wrapper = styled.section`
 `
 export const ImageContainer = styled.div`
     flex-shrink: 0;
-    width: 380px;
+    flex-basis: 380px;
     height: 100%;
 `
 
 export const IntroContainer = styled.div`
     padding: 64px;
     margin-bottom: 0;
-    width: 100%;
+    width: auto;
 
     h1{
         font-size: 48px;
