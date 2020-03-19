@@ -94,38 +94,19 @@ export const IntroContainer = styled.div`
         line-height: 26px;
     }
 
-    ${media.lessThan("medium")`
+    ${media.lessThan("large")`
         padding: 36px;
-
-        h1{
-            font-size: 38px;
-            line-height: initial;
-        }
-    `}
-
-    ${media.lessThan("medium")`
-        padding: 36px;
-
         h1{
             font-size: 32px;
-            line-height: initial;
+            line-height: normal;
         }
+    
     `}
 
     ${media.lessThan("small")`
         padding: 12px;
-
         h1{
             font-size: 24px;
-        }
-
-        
-        h3{
-            font-size: 12px;
-        }
-        
-        p{
-            font-size: 16px;
         }
     `}
 

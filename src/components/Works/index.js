@@ -1,11 +1,10 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
 
 import Content from "../Common/Content"
 import Wrapper from "../Common/Wrapper"
 
-import { WorksContainer, WorkItem} from "./styled"
+import { WorksContainer, WorkItem, WorkImage} from "./styled"
 
 
 const Works= () => (
@@ -31,8 +30,8 @@ const WorkItens = () => {
             node {
               childImageSharp {
                 id
-                fluid {
-                    ...GatsbyImageSharpFluid
+                fluid(maxWidth: 1000, quality: 100) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
@@ -45,7 +44,7 @@ const WorkItens = () => {
         <WorkItem>
           {data.allFile.edges.map((image, key) => (
                 <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">
-                    <Img
+                    <WorkImage
                         key={key}
                         fluid={image.node.childImageSharp.fluid}
                     />

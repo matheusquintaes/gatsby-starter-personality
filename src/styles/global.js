@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 import bg from '../images/bg.jpg'
+import media from "styled-media-query"
 
 const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
@@ -84,6 +85,39 @@ const GlobalStyles = createGlobalStyle`
     color: var(--gray);
     font-weight: bold;
   }
+
+  ${media.lessThan("large")`
+    h1{
+        font-size: 32px;
+        line-height: initial;
+    }
+  `}
+
+  ${media.lessThan("medium")`
+    h1{
+        font-size: 28px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  `}
+
+  ${media.lessThan("small")`
+
+    h1{
+        font-size: 24px;
+    }
+
+    
+    h3{
+        font-size: 12px;
+    }
+    
+    p{
+        font-size: 16px;
+    }
+  `}
 `
 
 export default GlobalStyles

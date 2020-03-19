@@ -5,11 +5,9 @@ import { DivWrapper } from "./styled"
 
 const Wrapper = ({ children }) => {
   return (
-    <>
       <DivWrapper>
         {children}
       </DivWrapper>
-    </>
   )
 }
 
