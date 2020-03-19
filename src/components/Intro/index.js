@@ -14,7 +14,7 @@ const Intro = () => (
           <h1>Hello my name is  <b> <br/>Jane Doe</b></h1>
           <h3>CREATIVE DESIGN - HUB AUCKLAND</h3>
         </header>
-        <p>Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+        <p>Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. </p>
       </IntroContainer>
     </Wrapper>
     </> 

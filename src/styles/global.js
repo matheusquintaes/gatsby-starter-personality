@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components"
+import bg from '../images/bg.jpg'
 
 const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
@@ -56,7 +57,7 @@ const GlobalStyles = createGlobalStyle`
 
 
   body {
-    background: var(--mainColor);
+    background-image: url(${bg});
     line-height: 1;
     font-family: 'Roboto', sans-serif;
     --textColor: #4a5568;
@@ -74,6 +75,14 @@ const GlobalStyles = createGlobalStyle`
     --gray10: #1D2B3D;
     --bg-black: #000;
     --bg-white: #fff;
+    font-size: 18px;    
+    line-height: 28px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: bold;
   }
 `
 

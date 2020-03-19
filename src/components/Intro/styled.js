@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const Wrapper = styled.section`
     background: #fff;
@@ -7,11 +8,60 @@ export const Wrapper = styled.section`
     width: 1000px;
     flex-direction: row;
     align-items: center;
+
+    ${media.lessThan("large")`
+        width: calc(100% - 300px);
+        flex-direction: column;
+    `}
+
+    ${media.lessThan("medium")`
+        width: calc(100% - 150px);
+        flex-direction: column;
+    `}
+
+    ${media.lessThan("small")`
+        width: calc(100% - 50px);
+        flex-direction: column;
+    `}
+
 `
 export const ImageContainer = styled.div`
     flex-shrink: 0;
-    flex-basis: 380px;
+    width: 380px;
     height: 100%;
+
+    .gatsby-image-wrapper{
+        width: 100%;
+        height: 100%;
+        -moz-object-fit: cover;
+        -webkit-object-fit: cover;
+        -ms-object-fit: cover;
+        object-fit: cover;
+        -moz-object-position: center;
+        -webkit-object-position: center;
+        -ms-object-position: center;
+        object-position: center;
+    }
+
+
+    ${media.lessThan("large")`
+        width: 100%;
+        height: 350px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    `}
+
+    ${media.lessThan("medium")`
+        height: 300px;
+    `}
+
+    ${media.lessThan("small")`
+        height: 250px;
+    `}
+    
 `
 
 export const IntroContainer = styled.div`
@@ -43,4 +93,40 @@ export const IntroContainer = styled.div`
         font-size: 22px;
         line-height: 26px;
     }
+
+    ${media.lessThan("medium")`
+        padding: 36px;
+
+        h1{
+            font-size: 38px;
+            line-height: initial;
+        }
+    `}
+
+    ${media.lessThan("medium")`
+        padding: 36px;
+
+        h1{
+            font-size: 32px;
+            line-height: initial;
+        }
+    `}
+
+    ${media.lessThan("small")`
+        padding: 12px;
+
+        h1{
+            font-size: 24px;
+        }
+
+        
+        h3{
+            font-size: 12px;
+        }
+        
+        p{
+            font-size: 16px;
+        }
+    `}
+
 `

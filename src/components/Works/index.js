@@ -2,7 +2,10 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import { Wrapper, Content, WorksContainer, WorkItem} from "./styled"
+import Content from "../Common/Content"
+import Wrapper from "../Common/Wrapper"
+
+import { WorksContainer, WorkItem} from "./styled"
 
 
 const Works= () => (

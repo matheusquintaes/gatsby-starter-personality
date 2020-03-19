@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const Wrapper = styled.nav`
    ul {
@@ -28,6 +29,18 @@ export const Wrapper = styled.nav`
                 margin-right: 12px;
             }
         }
-
    }
+
+   
+   ${media.lessThan("large")`
+       ul {
+           a {
+                margin-right: 18px;
+                font-size: 14px;
+           }
+       }
+       
+    `}
+
+
 `
