@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter | Personality`,
-    description: `A free resposive Gatsby Starter`,
+    description: `gats`,
     author: `@matheusquintaes`,
   },
   plugins: [

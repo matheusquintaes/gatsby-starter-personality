@@ -58,7 +58,6 @@ const GlobalStyles = createGlobalStyle`
 
 
   body {
-    background-image: url(${bg});
     line-height: 1;
     font-family: 'Roboto', sans-serif;
     --textColor: #4a5568;
