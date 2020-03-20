@@ -3,12 +3,12 @@
 A free resposive Gatsby Starter
 
 **View demo:**
-Soon
+https://gatsby-starter-personality.netlify.com/
 
 ## Install dependencies
 
 ```bash
-yarn # Or, npm install
+yarn install
 ```
 
 ## Start development server
