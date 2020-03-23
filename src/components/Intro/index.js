@@ -12,9 +12,10 @@ const Intro = () => (
       <IntroContainer>
         <header>
           <h1>Hello my name is  <b> <br/>Jane Doe</b></h1>
-          <h3>CREATIVE DESIGN - HUB AUCKLAND</h3>
+          <h3>DIGITAL DESIGNER - NEW ZEALAND</h3>
         </header>
-        <p>Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. </p>
+        <p>A free, fully responsive gatsby starter template designed by <a target="blank"  href="https://www.twitter.com/matheusquintaes">@matheusquintaes</a> </p>
+        <p>You can learn more about the starters <a target="blank" href="https://www.gatsbyjs.org/docs/starters/">here</a></p>
       </IntroContainer>
     </Wrapper>
     </> 

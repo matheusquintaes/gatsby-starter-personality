@@ -10,8 +10,6 @@ export const ContactWrapper = styled.div`
     ${media.lessThan("medium")`
         flex-wrap: wrap;
     `}
-
-
 `
 
 export const InfosWrapper = styled.div`
@@ -28,9 +26,7 @@ export const InfosWrapper = styled.div`
     p{
         margin-bottom: 32px;
     }
-
 `
-
 
 export const ImageWrapper = styled.div`
 

@@ -12,7 +12,7 @@ const Works= () => (
         <Wrapper>
             <Content>
                 <h1>Work</h1>
-                <p>Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia luctus elit eget interdum.</p>
+                <p>Selected web, mobile, video projects...</p>
                 <WorksContainer>
                     <WorkItens/>
                 </WorksContainer>
