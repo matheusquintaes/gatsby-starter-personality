@@ -14,7 +14,7 @@ gatsby new personality https://github.com/matheusquintaes/gatsby-starter-persona
 ## Install dependencies
 
 ```bash
-yarn install
+npm install
 ```
 
 ## Start development server
