@@ -7,7 +7,6 @@ export const FooterWrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin: 40px;
-  opacity: 0.8;
   color: var(--gray1);
   font-size: 16px;
   
