@@ -65,7 +65,7 @@ export const ImageContainer = styled.div`
 `
 
 export const IntroContainer = styled.div`
-    padding: 64px;
+    padding: 60px;
     margin-bottom: 0;
     width: auto;
 
