@@ -15,7 +15,7 @@ const Intro = () => (
           <h3>DIGITAL DESIGNER - NEW ZEALAND</h3>
         </header>
         <p>A free, fully responsive gatsby starter template designed by <a target="blank"  href="https://www.twitter.com/matheusquintaes">@matheusquintaes</a> </p>
-        <p>You can learn more about the starters <a target="blank" href="https://www.gatsbyjs.org/docs/starters/">here</a></p>
+        <p>You can learn more about the starters <a target="blank" href="https://www.gatsbyjs.org/docs/starters/">documentation here</a></p>
       </IntroContainer>
     </Wrapper>
     </> 
